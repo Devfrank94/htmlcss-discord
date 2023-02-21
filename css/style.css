@@ -56,7 +56,7 @@ header{
   background-color: #fff;
 }
 
-.box-jumbo .btn-medium a::before{
+.btn-medium a::before{
   content: "\2913";
   padding-right: 10px;
 }
@@ -116,7 +116,7 @@ nav ul li a{
   background-size: cover;
 }
 
-.box-jumbo h2,p{
+.box-jumbo h2, .box-jumbo p{
   color: #fff;
 }
 
@@ -149,41 +149,87 @@ nav ul li a{
 
 /* stile sezioni immagini e testo */
 section{
-  height: 450px;
+  height: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 section:nth-child(odd){
-  background-color: lightgray;
+  background-color: #f6f6f6;
 }
 
 .box-image,.box-text{
   height: 320px;
-  border: 2px dashed black;
 }
 
 .box-image{
   display: flex;
-  background-color:rgb(31, 109, 255);
-  width: 60%;
+  width: 65%;
 }
 
 .box-text{
-  display: flex;
-  background-color: rgb(255, 211, 240);
-  width: 40%;
+  width: 35%;
+  padding: 0 20px;
+}
+
+.box-text h2{
+  font-size: 30px;
+  padding-bottom: 15px;
+}
+
+.box-text p{
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 20px;
 }
 
 main section:last-child{
-  height: 650px;
+  height: 700px;
 }
 
 .boxcontainer .boxgreen{
-  width: 100%;
-  height: 550px;
-  background-color: green;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.boxgreen h2{
+  font-size: 25px;
+  padding-bottom: 15px;
+}
+
+.boxgreen p{
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.boxgreen h3{
+  font-weight: 800;
+  font-size: 16px;
+}
+
+.boxgreen img{
+  width: 80%;
+}
+
+.boxgreen img:last-of-type{
+  width: 40%;
+  height: 50px;
+  margin-bottom: -10px;
+}
+
+.boxgreen .btn-medium a{
+  color: #fff;
+  background-color: #5865f2b3;
+}
+
+.boxgreen .btn-medium{
+  margin: 30px;
 }
 /* /stile sezioni immagini e testo */
 
