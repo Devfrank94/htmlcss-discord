@@ -1,0 +1,172 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*stile logo link e login */
+header{
+  display: flex;
+  align-items: center;
+  background-color: rgb(146, 222, 255);
+  min-height: 70px;
+}
+
+.menu.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 800px;
+  width: 80%;
+  height: 30px;
+  border: 2px dashed black;
+  margin: 0 auto;
+  background-color: orange;
+}
+
+
+.logo{
+  align-items: center;
+  padding-left: 10px;
+}
+
+.btn-login{
+  padding-right: 10px;
+}
+
+nav{
+  padding-left: 100px;
+  padding-right: 85px;
+  height: 30px;
+  border-left: 2px dashed black;
+  border-right: 2px dashed black;
+}
+
+nav ul{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  line-height: 30px;
+}
+
+nav ul li{
+  margin-right: 15px;
+  color: black;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+/* stile jumbotron e text-box */
+.jumbotron{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  background-color: rgb(0, 0, 141);
+}
+
+.box-jumbo{
+  height: 250px;
+  width: 600px;
+  background-color: rgb(255, 121, 239);
+  border: 2px dashed black;
+}
+
+.boxcontainer,.footcontainer,.menu-footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  margin: 0 auto;
+}
+
+/* stile sezioni immagini e testo */
+section{
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section:nth-child(odd){
+  background-color: lightgray;
+}
+
+.box-image,.box-text{
+  height: 320px;
+  border: 2px dashed black;
+}
+
+.box-image{
+  display: flex;
+  background-color:rgb(31, 109, 255);
+  width: 60%;
+}
+
+.box-text{
+  display: flex;
+  background-color: rgb(255, 211, 240);
+  width: 40%;
+}
+
+main section:last-child{
+  height: 650px;
+}
+
+.boxcontainer .boxgreen{
+  width: 100%;
+  height: 550px;
+  background-color: green;
+}
+/* /stile sezioni immagini e testo */
+
+/* stile footer */
+footer{
+  height: 445px;
+  background-color: rgb(38, 38, 38);
+}
+
+.boxsocial{
+  display: flex;
+  background-color: lightpink;
+  height: 350px;
+  width: calc(100% / 3);
+  border: 2px dashed black;
+}
+
+footer .product,.company,.resources,.norms{
+  display: flex;
+  background-color: rgb(0, 203, 187);
+  height: 350px;
+  width: calc(100% / 6);
+  border: 2px dashed rgb(255, 255, 255);
+}
+
+.footcontainer{
+  padding-top: 10px;
+  margin-bottom: 15px;
+}
+
+hr{
+  margin: 20px 0;
+}
+
+.menu-footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 800px;
+  height: 40px;
+  margin: 0 auto;
+  background-color: rgb(93, 255, 228);
+}
+
+.btn-signin{
+  text-align: center;
+}
+/* /stile footer */
+
+
