@@ -155,7 +155,18 @@ section{
   align-items: center;
 }
 
-section:nth-child(odd){
+.wave{
+  height: 100px;
+  filter: opacity(0.04);
+  background-image: url(../img/wave.svg);
+  background-size: cover;
+}
+
+  main .upside-down{
+    transform: rotate(0.5turn);
+}
+
+.bg-gray{
   background-color: #f6f6f6;
 }
 
